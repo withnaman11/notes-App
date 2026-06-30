@@ -66,7 +66,7 @@ const App = () => {
        {
         task.map(
           (elem , index)=>{
-            return <div key={index} className=" relative h-60  bg-[url(sticky.jpg)] bg-cover rounded-4xl w-50  text-black p-4">
+            return <div key={index} className=" relative h-60  bg-[url('public/sticky.jpg')] bg-cover rounded-4xl w-50  text-black p-4">
               <h2 onClick={
                 ()=>{
                   deleteTask(index)
